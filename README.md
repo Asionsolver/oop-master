@@ -60,4 +60,102 @@ User user2  = new User(data)
 5. Is a custom data type.
 6. An isolated environment for properties & method.
 
-## OOP
+## Components of a class
+
+1. Constructor
+2. State(properties/ attributes)
+3. Methods
+4. Static States
+5. Static Methods
+
+## OOP has four main pillar
+
+**Abstraction**
+
+- Abstraction means hiding the implementation details inside and providing just the necessary API. We never know how it is working, we only know what to do.
+
+**Encapsulation**
+
+- The definition of encapsulation is "the action of enclosing something in or as if in a capsule". Encapsulation means that each object in your code should control its own state. State is the current "snapshot" of your object.
+
+```java
+
+class Person {
+   // private state
+   private String name;
+
+   // public static state
+   public static int key;
+
+   // public method
+   public Person (String name) {
+      this.name = name;
+   }
+
+   public String getName() {
+      return this.name;
+   }
+
+   // public static method
+   public static Person create(String name) {
+      return new Person(name);
+   }
+}
+```
+
+**Inheritance**
+
+- The ability of creating a new class from an existing class. Inheritance is when an object acquires the property of another object. Inheritance allows a class to acquire the properties and behavior of another class.
+
+**Polymorphism**
+
+- Polymorphism is derived from 2 Greek words: ply and morphs. The word "poly" means many and "morphs" means forms. So polymorphism means "many forms".
+
+## There are two types of relation in OOP
+
+**Is a relation**
+
+- Inheritance
+
+**Has a relation**
+
+- Composition
+- Aggregation
+
+## Inheritance( Is a relation)
+
+Inheritance is the ability of creating a new class from an existing class. Inheritance is when a object acquires the property of another object. **Inheritance allow a class to acquire the properties and behavior of another class.**
+
+**Inheritance means, Is a relationship.**
+
+> **Before Inheritance**
+
+![inheritance](./img/inheritance.png)
+
+> Analyzing Common Properties and Methods
+
+![inheritance-2](./img/inheritance-2.png)
+
+> **After Inheritance**
+
+![inheritance-3](./img/inheritance-3.png)
+
+> **Complex Example of Inheritance**
+
+![inheritance-4](./img/inheritance-4.png)
+
+## Aggregation( Has a relation)
+
+**Aggregation means, Has a relationship.**
+
+![aggregation](./img/aggregation.png)
+
+## Composition( Has a relation)
+
+**Composition means, Has a relationship.**
+
+![composition](./img/composition.png)
+
+## Polymorphism
+
+![polymorphism](./img/polymorphism.png)
