@@ -148,11 +148,13 @@ Inheritance is the ability of creating a new class from an existing class. Inher
 
 **Aggregation means, Has a relationship.**
 
-![aggregation](./img/aggregation.png)
+- যেখানে child independently থাকতে পারবে সেটা হলো aggregation(Aggregation is where a child can live independently).
+  ![aggregation](./img/aggregation.png)
 
 ## Composition( Has a relation)
 
 **Composition means, Has a relationship.**
+-যেখানে child independently থাকতে পারবে না সেটা হলো composition(Where a child cannot be independent is composition).
 
 ![composition](./img/composition.png)
 
